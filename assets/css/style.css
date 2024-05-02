@@ -1,0 +1,1066 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------HEADER SECTION---------------------*/
+
+
+
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+}
+
+.top>.letras-arriba {
+    display: flex;
+    width: 40rem;
+    color: #f5f5f5;
+    justify-content: end;
+    background-color: #435698;
+    border-radius: 18px 0 0 18px;
+}
+
+.top-info {
+    display: flex;
+    width: 30rem;
+    justify-content: end;
+    margin-right: 1rem;
+}
+
+.top-info>div {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.logo-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-logo {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.logo-chempo {
+    width: 12.5rem;
+    margin-top: 2%;
+}
+
+.nav-conteiner {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+}
+
+#nav-nosotros {
+    margin-right: 1rem;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.contac-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav-phone {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/*----------------END OF HEADER SECTION-----------------------*/
+
+/*------------------HIDDEN NAV-BAR SECTIONS--------------------*/
+
+.productos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    padding: 2rem;
+    border: solid 2px black;
+}
+
+
+.titulo-oculto {
+    text-align: end;
+    width: 100%;
+    border-bottom: 1px solid black;
+    color: #565656;
+}
+
+.titulo-oculto h1 {
+    font-weight: 200;
+}
+
+.titulo-oculto1 {
+    text-align: end;
+    width: 100%;
+    border-bottom: 1px solid black;
+    color: #565656;
+}
+
+.titulo-oculto1 h1 {
+    padding-top: 2%;
+    font-weight: 200;
+}
+
+.productos.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.productos.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.div-fila-1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.div-fila-1>div>a {
+    width: 16, 6%;
+}
+
+.div-abajo {
+    display: flex;
+    width: 50.3%;
+    justify-content: center;
+}
+
+.div-abajo>div>a>img {
+    width: 70%;
+}
+
+.div-fila-1>div>a>img {
+    width: 70%;
+}
+
+.productos>div>div>a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.producto>a>h4 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #435698;
+}
+
+.aplicaciones {
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+    justify-content: space-around;
+    transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    bottom: 14;
+    z-index: 2;
+    border: solid 2px black;
+}
+
+.aplicaciones>article {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+
+.aplicaciones>article>div {
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
+}
+
+.aplicaciones>article>div>a>img {
+    width: 14rem;
+    border-radius: 5%;
+    box-shadow: 0 0 15px 0 black;
+}
+
+
+.aplicaciones>article>div>a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.aplicaciones>article>div>a>h4 {
+    font-weight: 300;
+    color: #435698;
+    font-size: 20px;
+    margin-top: .5rem;
+}
+
+.titulo-aplicaciones {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.aplicaciones.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*------------------END OF HIDDEN NAV-BAR SECTIONS--------------------*/
+
+/*-------------------------CAROUSEL SECTION------------------------*/
+
+.conteiner {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.carousel {
+    width: 100%;
+
+}
+
+.carousel-img-phone {
+    display: none;
+}
+
+.carousel-indicators {
+    z-index: 1;
+}
+
+.carousel-img {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-control-prev {
+    z-index: 0;
+    display: flex;
+    justify-content: start;
+    margin-left: 1%;
+}
+
+.carousel-control-next {
+    z-index: 0;
+    display: flex;
+    justify-content: end;
+    margin-right: 1%;
+}
+
+.custom-carousel-control-next-icon {
+    color: #000000;
+    /* Color personalizado */
+    font-size: 30px;
+}
+
+/*-------------------------END OF CAROUSEL SECTION------------------------*/
+
+/*-------------------------ABOUT SECTION------------------------*/
+
+.info {
+    padding: 1rem;
+}
+
+.titulo-chempo-info {
+    font-family: 'Aileron', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 5.6rem;
+}
+
+.subtitulo-info {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #435698;
+    margin-left: 5.6rem;
+}
+
+.titulo-subtitulo {
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+.texto-info {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+.div-p-img {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.div-texto-info {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: 2.5%;
+}
+
+.imagen-info {
+    width: 35rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagen-caja {
+    width: 100%;
+}
+
+
+
+/*-------------------------END OF ABOUT SECTION------------------------*/
+
+/*-------------------------NEWS SECTION------------------------*/
+
+/*ACA VA EL EFECTO DE LA FOTO DE LA CAJA LUCAS PUTO FACU SE LA COME A MORDISCONES 
+LA CONCHA DE TU MADRE JOAQUINSITO DE ORTO CHUPA VERGA A DOS MANOS Y LA CONCHA DE TU ABUELA 
+QUE ES LA MISMA QUE LA MIA XD PEDAZO DE GIL DE GOMA YOGI GATO TRAGA WASKA MASCA TRIPA BIGOTE DE RICOTA
+RICOTA LA QUE TENGO EN LA VERGA CON TODO EL QUESITO QUE LA VOY A PONER EN TU MOUSE HDP*/
+
+.seccion-vellon {
+    width: 100%;
+    margin-top: 4%;
+
+}
+
+.linea-gris {
+    padding: 2rem;
+    border-top: 4px solid gray;
+    width: 82.5%;
+    margin: 0 auto;
+
+}
+
+.titulo-principal {
+    padding-left: 7.9%;
+}
+
+.contenido-seccion3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.contenido-seccion3>div {
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.div-img-vellon1 {
+    width: 35%;
+}
+
+.div-img-vellon1>h2 {
+    padding-top: 2%;
+}
+
+.div-img-vellon1>p {
+    padding-top: 0.5%;
+
+}
+
+.img-vellon1 {
+    width: 100%;
+}
+
+.div-img-vellon2 {
+    width: 25%;
+}
+
+.div-img-vellon2>h2 {
+    padding-top: 2%;
+    color: #435698;
+}
+
+.img-vellon2 {
+    width: 100%;
+}
+
+.div-textos-vellon {
+    width: 20%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 45%;
+}
+
+.modal-content2 {
+    margin-top: 0;
+}
+
+.img-vellon-card {
+    width: 50%;
+    padding: 1%;
+    height: 10%;
+
+}
+
+.img-vellon-card2 {
+    width: 50%;
+    padding: 1%;
+    height: 15rem;
+
+}
+
+.div-vellon-card {
+    display: flex;
+}
+
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.div-img-vellon>p,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.div-img-vellon>h2 {
+    color: #435698;
+}
+
+.div-img-vellon>p {
+    color: #6b6b6b;
+}
+
+.modal-content>p,
+h2,
+ul>li {
+    font-family: 'Poppins', sans-serif;
+}
+
+.lista-modal {
+    font-weight: 600;
+}
+
+.col-medio {
+    width: 25%;
+}
+
+.div-textos-vellon>div>h2 {
+    color: grey
+}
+
+.div-col-textos>p {
+    color: #6b6b6b;
+}
+
+.div-textos-vellon>div>p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.div-tintas {
+    position: absolute;
+    width: 35%;
+}
+
+.excerpt4 {
+    color: #6b6b6b
+}
+
+.excerpt5 {
+    color: #6b6b6b
+}
+
+/*-------------------------END OF NEWS SECTION------------------------*/
+
+.footer {
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.acomodarxd {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logo {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.footer-phone {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.logos-footer {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-info-div {
+    background-color: #222222;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.footer-contacts>a {
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 8%;
+}
+
+.wpp-button-a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.wpp-button {
+    width: 8rem;
+}
+
+
+/*-------------------------RESPONSIVE DESING------------------------*/
+
+@media only screen and (max-width: 1441px) {
+
+
+    .nav-conteiner {
+        width: 100%;
+    }
+
+    .navbar {
+        align-items: flex-start;
+        width: 85%;
+    }
+
+}
+
+
+@media screen and (max-width : 1025px) {
+
+    header {
+        height: 6rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .top-info {
+        height: 2rem;
+    }
+
+    .phone-icon,
+    .contac-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .top-info>div {
+        margin-right: 1rem;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .nav-conteiner {
+        width: 100%;
+    }
+
+    .navbar {
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .nav-text {
+        font-size: 16px;
+    }
+
+    .logo-chempo {
+        width: 11rem;
+        margin: 0;
+    }
+
+    .titulo-chempo-info {
+        margin-left: 4.2rem;
+    }
+
+    .subtitulo-info {
+        margin-left: 4.2rem;
+    }
+
+    .imagen-info {
+        width: 40%;
+    }
+
+    .img-vellon-card2 {
+        height: 30%;
+    }
+
+    .footer-logo {
+        width: 70%;
+    }
+
+    .footer {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width : 430px) {
+
+    .top {
+        display: none;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    .nav-conteiner {
+        display: none;
+    }
+
+    .menu-icon {
+        cursor: pointer;
+        display: block;
+        width: max-content;
+        margin-right: .2rem;
+    }
+
+    .burguer-menu {
+        position: absolute;
+        top: 110px;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        list-style: none;
+        background-color: #e2e2e2;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .slide-in-top {
+        -webkit-animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    @-webkit-keyframes slide-in-top {
+        0% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slide-in-top {
+        0% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+
+    .phone-abrasivos {
+        position: absolute;
+        z-index: 1;
+        background-color: #e4e4e4;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .phone-abrasivos>div {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .phone-quimicos {
+        position: absolute;
+        z-index: 2;
+        background-color: #e4e4e4;
+        width: 100%;
+    }
+
+    .phone-quimicos>div {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .producto>a {
+        text-decoration: none;
+    }
+
+
+    .producto>a>h4 {
+        text-align: left;
+        color: #000000;
+        margin-top: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        font-size: 18px;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.103);
+    }
+
+    .aplicaciones {
+        background-color: #e4e4e4;
+        margin: 0;
+        margin-top: 45px;
+        padding: 0;
+        border: 0;
+    }
+
+    .aplicaciones>article {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    .aplicaciones>article>div {
+        width: 100%;
+    }
+
+    .aplicaciones>article>div>a {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.103);
+    }
+
+    .aplicaciones>article>div>a>img {
+        display: none;
+    }
+
+    .aplicaciones>article>div>a>h4 {
+        color: #000000;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .burguer-menu>li {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.281);
+    }
+
+    .burguer-menu>li>button {
+        border: 0;
+        background-color: #e2e2e2;
+    }
+
+    .burguer-menu>li>a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+
+    .phone-icon {
+        margin: 0;
+        margin-left: 1rem;
+    }
+
+    .logo-navbar {
+        justify-content: space-between;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .div-logo {
+        width: max-content;
+        margin: 0;
+        padding-left: .5rem;
+        padding-top: 1rem;
+    }
+
+    .nav-phone {
+        width: 70%;
+        max-width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .nav-phone>button {
+        margin-right: .5rem;
+        border: 0;
+        background-color: #435698;
+        color: white;
+        padding: .2rem;
+        border-radius: 3px;
+    }
+
+    svg>line {
+        color: #435698;
+    }
+
+    .navbar {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .productos {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .aplicaciones {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .carousel-img {
+        display: none;
+    }
+
+    .carousel-img-phone {
+        display: block;
+    }
+
+    .logo-chempo {
+        width: 8rem;
+    }
+
+    .titulo-principal {
+        padding-left: 1.5rem;
+
+    }
+
+    .titulo-chempo-info,
+    .subtitulo-info {
+        text-align: left;
+        margin: 0;
+        width: 100%;
+        padding-left: .4rem;
+        padding-right: .4rem;
+    }
+
+    .texto-info {
+        font-size: 15px;
+    }
+
+    .div-p-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-texto-info {
+        width: 100%;
+    }
+
+    .imagen-info {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .contenido-seccion3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-img-vellon1,
+    .div-img-vellon2,
+    .div-col-textos {
+        width: 100%;
+        max-width: 100%;
+
+    }
+
+    .div-img-vellon1,
+    .div-img-vellon2 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .contenido-seccion3>div {
+        margin: 0;
+    }
+
+    .excerpt,
+    .excerpt2 {
+        margin: 0;
+    }
+
+    .div-textos-vellon {
+        width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    .div-col-textos {
+        width: 99%;
+        max-width: 99%;
+    }
+
+    .excerpt5 {
+        width: 99%;
+        max-width: 99%;
+    }
+
+    .excerpt,
+    .excerpt2,
+    .excerpt3,
+    .excerpt4,
+    .excerpt5 {
+        font-size: 15px;
+    }
+
+    .img-vellon1,
+    .img-vellon2 {
+        display: none;
+    }
+
+    
+    .modal {
+        width: 100%;
+
+    }
+
+    .div-logo-footer {
+        display: none;
+    }
+
+    .footer-phone {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .title_footer {
+        margin-left: 1rem;
+    }
+
+    .link_footer {
+        margin-left: 1rem;
+    }
+
+    .footer-phone>div {
+        width: 40%;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    .wpp-button-a {
+        bottom: 50px;
+        right: -40px;
+    }
+
+    .footer-contacts>a {
+        font-size: 12px;
+    }
+}
