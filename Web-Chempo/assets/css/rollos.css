@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#section-ruedas {
+    width: 100%;
+}
+
+.cont-arriba{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-img {
+    width: 100%;
+    background-color: #e2e2e2;
+    padding-left: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.texto-img>img{
+    width: 20%;
+    margin-right: 15rem;
+}
+
+.texto-img>p{
+    width: 60%;
+    font-size: 18px;
+    margin-right: 10rem;
+}
+
+.titulo {
+    border-top: 4px solid gray;
+}
+
+.titulo h1 {
+    margin-left: 4.9%;
+    margin-top: 1%;
+    width: 90%;
+}
+
+.section-nonw {
+    width: 98%;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.titulo-nw {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+.titulo-nw h2 {
+    color:  #435698;
+}
+
+.titulo-nw p{
+    padding-top: 1%;
+    font-size: 18px;
+    width: 70%;
+    margin:0;
+}
+
+.cuadro-paño {
+    width: 80%;
+    height: 10%;
+    margin-top: 1%;
+}
+
+.cuadro-paño2 {
+    width: 80%;
+}
+
+.div-img-maquinas {
+    width: 40%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-maquinas {
+    width: 9rem;
+}
+
+.tripa{
+    width: 10rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.satinadora-img{
+    width: 25%;
+    margin-top: 1rem;
+    box-shadow: 0 0 20px 0 black;
+}
+
+.satinadora-img2{
+    width: 15rem;
+    height: 15rem;
+    margin-top: 5rem;
+}
+
+.section-cuadros {
+    width: 100%;
+}
+
+.section-cuadros>p {
+    color: gray;
+    margin-left: 5rem;
+}
+
+.m14>h5{
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.m14>p, .m14>img {
+    margin-left: 5rem;
+}
+
+.ruedam14-img{
+    width: 30%;
+    padding-left: 20rem;
+    
+    
+}
+
+.container-cuadros{
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+}
+
+.cuadroNW {
+    margin-right: 4%;
+    margin-left: 5%;
+}
+
+.section-ruedas2 {
+    margin-top: 4%;
+    border-top: 1px solid gray;
+}
+
+.titulo-lija {
+    margin-left: 4.9%;
+    margin-top: 1%;
+    width: 90%;
+}
+
+.container-cuadros-combinados {
+    padding-top: 2%;
+}
+
+.container-cuadros-combinados p {
+    margin-left: 5.4%;
+    padding-top: 2%;
+    color: gray;
+    font-weight: 100;
+}
+
+.cuadro-combinado {
+    margin-left: 5%;
+    margin-right: 3.3%;
+}
+
+
+.ruedaconperno {
+    margin-top: 4rem;
+    border-top: 4px solid gray;
+    width: 100%;
+}
+
+.perno-container {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.perno-container>div {
+    width: 50%;
+}
+
+.ruedaconperno h3{
+    color: #435698;   
+}
+
+.tituloh5{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 5rem;
+}
+
+.ruedaconpernoimg1, .ruedaconpernoimg2{
+    margin-left: 5rem;
+
+}
+
+.foto-ruedaconperno{
+    width: 12%;
+}
+
+.miniflex>h5{
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.miniflex-img{
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.section-nonw-phone {
+    display: none;
+}
+
+@media only screen and (max-width: 1440px){
+
+    .cuadro-paño2{
+        width: 65%;
+        margin-top: 2rem;
+    }
+
+    .satinadora-img2{
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .satinadora-img {
+        width: 18rem;
+        height: 13rem;
+    }
+
+    .cuadro-paño{
+        width: 70%;
+        height: 9rem;
+        margin-top: 2rem;
+    }
+
+    .texto-img{
+        padding: 1rem;
+    }
+
+    .texto-img>p {
+        margin-left: 3rem;
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width : 1025px){
+
+    .texto-img p{
+        margin-left: 2.3rem;
+    }
+
+    .satinadora-img{
+        width: 30%;
+    }
+
+    .satinadora-img2{
+        width: 20%;
+        height: 15%;
+    }
+}
+
+@media screen and (max-width : 431px) {
+
+    .titulo-nw-phone>h2{
+        margin-top: 1rem;
+        color: #435698;
+    }
+    
+    .texto-img {
+        background-color: white;
+    }
+
+    .texto-img>p {
+        margin: 0;
+        width: 100%;
+    }
+
+    .section-nonw {
+        display: none;
+    }
+
+    .section-nonw-phone {
+        display: flex;
+        flex-direction: column;
+        padding: .5rem;
+    }
+
+    .satinadora-img2 {
+        margin: 0;
+        margin-top: 1rem;
+        width: 10rem;
+    }
+
+    .cuadro-paño2{
+        width: 100%;
+        margin: 0;
+        margin-top: 1rem;    
+        
+    }
+
+    
+
+    
+}

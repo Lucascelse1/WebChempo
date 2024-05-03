@@ -1,0 +1,438 @@
+.texto-bandas {
+    margin-top: -1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.section-bandas {
+    width: 100%;
+}
+
+.cont-arriba {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.texto-img {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    background-color: #e2e2e2;
+}
+
+.texto-img>p {
+    font-size: 18px;
+    width: 40%;
+    margin-left: 6rem;
+}
+
+.texto-img>img {
+    width: 15%;
+    margin-left: 25rem;
+}
+
+.foto-decapante {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.foto-decapante>img {
+    max-width: 100%;
+    box-shadow: 0 0 20px 0 black;
+}
+
+.titulo {
+    border-top: 4px solid gray;
+}
+
+.titulo h1 {
+    margin-left: 4.9%;
+    margin-top: 1%;
+    width: 90%;
+}
+
+.section-nonw {
+    width: 98%;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.section-lijas {
+    width: 98%;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.titulo-bandas {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo-bandas h2 {
+    color: #435698;
+}
+
+.titulo-bandas p {
+    padding-top: 1%;
+    font-size: 18px;
+    width: 70%;
+}
+
+.div-img-maquinas {
+    width: 40%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-maquinas {
+    width: 6rem;
+}
+
+
+.satinadora-div-img {
+    width: 38%;
+    padding-top: 5%;
+
+}
+
+.satinadora-img {
+    width: 25%;
+    margin-top: 4rem;
+    margin-right: 10rem;
+    box-shadow: 0 0 20px 0 black;
+}
+
+.section-cuadros {
+    width: 100%;
+    max-width: 100%;
+}
+
+.container-cuadros {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 2%;
+    display: flex;
+}
+
+
+.section-bandas2 {
+    margin-top: 4%;
+    border-top: 1px solid gray;
+}
+
+.titulo-lija {
+    margin-left: 4.9%;
+    margin-top: 1%;
+    width: 90%;
+}
+
+.container-cuadros-combinados {
+    padding-top: 2%;
+}
+
+.container-cuadros-combinados p {
+    margin-left: 5.4%;
+    padding-top: 2%;
+    color: gray;
+    font-weight: 100;
+}
+
+.cuadro-combinado {
+    margin-left: 5%;
+    margin-right: 3.3%;
+}
+
+.div-img-vellon {
+    width: 30%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-vellon>h2 {
+    color: #435698;
+}
+
+.cuadro1decapante>h5 {
+    margin-left: 2.5rem;
+}
+
+.cuadro1decapante>img {
+    margin-left: 5.5rem;
+    width: 22rem;
+}
+
+.cuadro2decapante>img {
+    width: 22rem;
+    margin-left: 1.5rem;
+}
+
+.cuadro3decapante {
+    display: flex;
+    align-items: flex-start;
+}
+
+.cuadro4decapante {
+    display: flex;
+    align-items: flex-start;
+}
+
+.cuadro3decapante>img {
+    width: 22rem;
+    margin-left: 1.5rem;
+}
+
+.cuadro4decapante>img {
+    width: 22rem;
+    margin-left: 1.5rem;
+}
+
+
+
+.cuadro1pasivante {
+    margin-right: 15rem;
+}
+
+.cuadro1pasivante h5 {
+    margin-left: 1rem;
+}
+
+.cuadro2pasivante {
+    margin-right: 10rem;
+}
+
+.cuadro2pasivante>img {
+    margin-top: 3.5rem;
+}
+
+.cuadro3pasivante>img {
+    margin-top: 5.5rem;
+}
+
+
+.img-gris-phone {
+    display: none;
+}
+
+.section-nonw-phone {
+    display: none;
+}
+
+@media only screen and (max-width : 1440px) {
+
+    .texto-img>p {
+        margin-left: 4rem;
+        font-size: 17px;
+    }
+
+    .titulo-bandas>p {
+        font-size: 17px;
+    }
+
+    .container-cuadros {
+        overflow: hidden;
+    }
+
+    .cuadro1decapante {
+        margin-left: 5%;
+    }
+
+    .cuadro1decapante>img {
+        width: 20rem;
+        margin: 0;
+    }
+
+    .cuadro2decapante>img {
+        width: 20rem;
+        margin-left: .5rem;
+    }
+
+    .cuadro3decapante>img {
+        width: 20rem;
+        margin-left: .5rem;
+    }
+
+    .cuadro4decapante>img {
+        width: 20rem;
+        margin-left: .5rem;
+    }
+
+}
+
+@media only screen and (max-width: 1281px) {
+
+    .cuadro4decapante img {
+        margin-top: 5.6rem;
+        margin-left: -20rem;
+        
+
+    }
+}
+
+@media screen and (max-width : 1025px){
+    .texto-img p{
+        margin-left: 3.3rem;
+        width: 60%;
+    }
+
+    .texto-img img{
+        margin-right: 2rem;
+        margin-left: 3rem;
+    }
+
+    .titulo-bandas>p {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width : 431px){
+    
+    .section-nonw-phone{
+        display: block;
+    }
+
+
+    .titulo>h1 {
+        margin: 0;
+        width: 100%;
+        padding: .5rem;
+    }
+
+    .texto-img {
+        flex-direction: column;
+    }
+    
+    .texto-img>p {
+        margin: 0;
+        padding: .5rem;
+        width: 100%;
+        background-color: white;
+    }
+    
+    .texto-img>img{
+        display: none;
+    }
+
+    .img-gris-phone {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(196, 196, 196);
+        width: 100%;
+    }
+
+    .img-gris-phone>img {
+        width: 10rem;
+        margin: 0;
+    }
+
+    .section-nonw {
+        display: none;
+    }
+
+    .titulo-bandas-phone {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .titulo-bandas-phone>h2{
+        margin-left: .3rem;
+        color: #435698;
+    }
+
+    .titulo-bandas-phone>p {
+        width: 98%;
+        margin-left: .4rem;
+    }
+
+    .foto-decapante-phone {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .foto-decapante-phone>img {
+        width: 20rem;
+        box-shadow: 0 0 20px 0 black;
+        margin-top: .5rem;
+        margin-bottom: 2rem;
+    }
+
+    .container-cuadros {
+        flex-direction: column;
+        max-width: 100%;
+        
+    }
+
+    .cuadro1decapante, 
+    .cuadro2decapante, 
+    .cuadro3decapante, 
+    .cuadro4decapante {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .cuadro1decapante>img {
+        width: 98%;
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .cuadro2decapante>img{
+        width: 98%;
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .cuadro3decapante>img{
+        width: 98%;
+        margin: 0;
+        margin-top: 2rem;
+    } 
+    
+    .cuadro4decapante>img {
+        width: 98%;
+        margin: 0;
+    }
+
+    .div-img-maquinas-phone{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .img-maquinas-phone {
+        width: 20%;
+    }
+
+    .texto-industrial{
+      margin-left: .3rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .section-bandas2 {
+        display: none;
+    }
+}
