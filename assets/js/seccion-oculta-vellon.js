@@ -1,3 +1,5 @@
+"use strict"
+
 document.addEventListener('DOMContentLoaded', function () {
   const excerpt = document.querySelector('.excerpt');
   const modal = document.getElementById('myModal');

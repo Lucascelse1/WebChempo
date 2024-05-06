@@ -1,3 +1,5 @@
+"use strict"
+
 const btn = document.getElementById('button');
 const form = document.getElementById('form');
 

@@ -1,3 +1,5 @@
+"use strict"
+
 document.addEventListener('DOMContentLoaded', function() {
     let elemento = document.querySelector('.imagen-caja');
 

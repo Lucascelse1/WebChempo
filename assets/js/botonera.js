@@ -1,3 +1,5 @@
+"use strict"
+
 const navItem = document.querySelector('.nav-item1')
 const navItem2 = document.querySelector('.nav-item2')
 const navItem3 = document.querySelector('.nav-item3')
