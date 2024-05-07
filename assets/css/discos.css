@@ -70,6 +70,16 @@ section {
     margin-left: 1rem;
 }
 
+.quick-change-img {
+    width: 100%;
+}
+
+.quick-div {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
 .img-zirconio{
     width: 40%;
     margin-left: 6rem;
@@ -111,6 +121,10 @@ section {
 
 .zirconio-img-discos{
     width: 30%;
+}
+
+.discosnw-phone{
+    width: 16rem;
 }
 
 @media screen and (min-width : 1520px){
@@ -225,6 +239,15 @@ section {
         width: 100%;
         display: flex;
         align-items: center;
+    }
+
+    .quick-change-img {
+        width: 42%;
+    }
+    
+    .discosnw{
+       width: 30%;
+       
     }
 
     .zirconio-img-discos{
