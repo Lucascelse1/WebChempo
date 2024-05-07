@@ -290,6 +290,7 @@
 .carousel-img {
     height: 100%;
     width: 100%;
+    max-width: 100%;
 }
 
 .carousel-control-prev {
@@ -932,7 +933,8 @@ footer {
 
     .carousel-img-phone {
         display: block;
-        
+        width: 100%;
+        max-width: 100%;
     }
 
     .logo-chempo {
