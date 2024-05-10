@@ -3,6 +3,14 @@
 @import url("https://use.typekit.net/yzl5eky.css");
 
 
+.rollo-invisible-momentaneo {
+    opacity: 0;
+}
+
+.rollo-invisible-momentaneo>a {
+    cursor: auto;
+}
+
 
 * {
     margin: 0;
