@@ -29,7 +29,7 @@ main {
 }
 
 
-.div-fondo img {
+.div-fondo>img {
     width: 100%;
 }
 
