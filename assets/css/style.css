@@ -605,7 +605,10 @@ ul>li {
     background-color: #222222;
     width: 100%;
     text-align: center;
-    
+}
+
+.footer-info-div>span>a{
+    text-decoration: none;
 }
 
 .footer-contacts>a {
