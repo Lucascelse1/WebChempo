@@ -397,7 +397,11 @@ section {
         font-size: 14px;
     }
 
-    .footer-info-div {
-        font-size: 10px;
+    .footer-logo {
+        width: 75%;
+    }
+
+    .footer-info-div>span>a {
+        font-size: 16px;
     }
 }
