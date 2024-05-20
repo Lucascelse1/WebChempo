@@ -135,133 +135,7 @@ section {
     width: 16rem;
 }
 
-@media screen and (min-width : 1520px){
 
-    .section-zirconio-phone {
-        display: none;
-    }
-
-    .section-zirconio {
-        display: flex;
-        margin-top: 4rem;
-    }
-
-    .titulo>h1 {
-        padding-left: 5rem;
-        font-size: 40px;
-        max-width: 100%;
-    }
-
-    .texto-img {
-        background-color: #e2e2e2;
-    }
-
-    .texto-img>p {
-        width: 50%;
-        margin-left: 4rem;
-        font-size: 18px;
-    }
-
-    .titulo-zirconio {
-        width: 60%;
-    }
-
-    .titulo-zirconio>h2, p {
-        margin-left: 4rem;
-    }
-
-    .titulo-zirconio>h2 {
-        color: #435698;
-    }
-
-    .cuadro-zirconio{
-        width: 48%;
-        height: 100%;
-        margin: 0;
-    }
-
-    .cuadro-sensitivo {
-        width: 48%;
-        height: 82%;
-        margin: 0;
-    }
-
-    .cuadro-desbaste{
-        width: 48%;
-        height: 70%;
-        margin: 0;
-    }
-
-    .div-zirconio-img {
-        margin-left: 4rem;
-        display: flex;
-    }
-
-    .div-zirconio-img {
-        width: max-content;
-        margin-top: 3rem;
-    }
-
-    .zirconio-img{
-        width: 20%;
-        margin-left: 3rem;
-    }
-
-    .sensitivo-img{
-        width: 30%;
-        margin-left: 3rem;
-    }
-
-    .img-zirconio{
-        width: 7%;
-    }
-
-    .cuadro-zirconio-conteiner {
-        display: flex;
-        align-items: center;
-    }
-
-    .cuadro-fibra{
-        width: 73%;
-    }
-
-
-    .cuadro-nonwo {
-        width: 80%;
-    }
-
-    .cuadro-unitized {
-        width: 17%;
-        height: 28%;
-        margin-left: 5.2rem;
-    }
-
-    .cuadro-strip {
-        width: 17%;
-        height: 35%;
-        margin-left: 5.2rem;
-    }
-
-    .cuadro-strip-conteiner,
-    .cuadro-unitized-conteiner {
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-
-    .quick-change-img {
-        width: 42%;
-    }
-    
-    .discosnw{
-       width: 30%;
-       
-    }
-
-    .zirconio-img-discos{
-        width: 15%;
-    }
-}
 
 
 @media screen and (min-width : 1024px){
@@ -403,5 +277,134 @@ section {
 
     .footer-info-div>span>a {
         font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width : 1520px){
+
+    .section-zirconio-phone {
+        display: none;
+    }
+
+    .section-zirconio {
+        display: flex;
+        margin-top: 4rem;
+    }
+
+    .titulo>h1 {
+        padding-left: 5rem;
+        font-size: 40px;
+        max-width: 100%;
+    }
+
+    .texto-img {
+        background-color: #e2e2e2;
+    }
+
+    .texto-img>p {
+        width: 50%;
+        margin-left: 4rem;
+        font-size: 18px;
+    }
+
+    .titulo-zirconio {
+        width: 60%;
+    }
+
+    .titulo-zirconio>h2, p {
+        margin-left: 4rem;
+    }
+
+    .titulo-zirconio>h2 {
+        color: #435698;
+    }
+
+    .cuadro-zirconio{
+        width: 48%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .cuadro-sensitivo {
+        width: 48%;
+        height: 82%;
+        margin: 0;
+    }
+
+    .cuadro-desbaste{
+        width: 48%;
+        height: 70%;
+        margin: 0;
+    }
+
+    .div-zirconio-img {
+        margin-left: 4rem;
+        display: flex;
+    }
+
+    .div-zirconio-img {
+        width: max-content;
+        margin-top: 3rem;
+    }
+
+    .zirconio-img{
+        width: 20%;
+        margin-left: 3rem;
+    }
+
+    .sensitivo-img{
+        width: 30%;
+        margin-left: 3rem;
+    }
+
+    .img-zirconio{
+        width: 7%;
+    }
+
+    .cuadro-zirconio-conteiner {
+        display: flex;
+        align-items: center;
+    }
+
+    .cuadro-fibra{
+        width: 73%;
+    }
+
+
+    .cuadro-nonwo {
+        width: 80%;
+    }
+
+    .cuadro-unitized {
+        width: 17%;
+        height: 28%;
+        margin-left: 5.2rem;
+    }
+
+    .cuadro-strip {
+        width: 17%;
+        height: 35%;
+        margin-left: 5.2rem;
+    }
+
+    .cuadro-strip-conteiner,
+    .cuadro-unitized-conteiner {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .quick-change-img {
+        width: 42%;
+    }
+    
+    .discosnw{
+       width: 30%;
+       
+    }
+
+    .zirconio-img-discos{
+        width: 15%;
     }
 }
