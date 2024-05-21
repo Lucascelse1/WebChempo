@@ -1080,6 +1080,10 @@ footer {
         right: -40px;
     }
 
+    .footer-contacts {
+        text-align: center;
+    }
+
     .footer-contacts>a {
         font-size: 12px;
     }
