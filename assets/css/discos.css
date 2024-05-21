@@ -100,8 +100,8 @@ section {
 
 .cuadro-strip-container-phone {
     margin-top: 2rem;
-    max-width: 100%;
-    width: 100%;
+    max-width: 90%;
+    width: max-content;
     margin-left: 1rem;
 }
 
@@ -125,6 +125,7 @@ section {
 .cuadro-strip, 
 .cuadro-unitized {
     width: 20%;
+   
 }
 
 .zirconio-img-discos{
@@ -136,8 +137,9 @@ section {
 }
 
 .wpp-button-a {
-    right: 0;
+    width: 8rem;
 }
+
 
 
 @media screen and (min-width : 1024px){
