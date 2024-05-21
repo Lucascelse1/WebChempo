@@ -181,57 +181,6 @@ body {
     display: none;
 }
 
-@media only screen and (max-width : 1440px) {
-
-    .titulo-bandas p {
-        font-size: 17px;
-    }
-
-    .cuadroNW {
-        width: 22rem;
-    }
-
-    .img-cuadro-multichem {
-        width: 22rem;
-    }
-
-    .limpiador-img {
-        width: 8rem;
-        height: 15rem;
-    }
-
-    footer {
-        font-size: 14px;
-        height: 10rem;
-        padding: 0;
-    }
-
-
-}
-
-@media screen and (max-width : 1025px) {
-
-    .satinadora-div-img {
-        width: 50%;
-    }
-
-    .titulo-bandas {
-        width: 70%;
-    }
-
-    .titulo-bandas>p {
-        width: 90%;
-    }
-
-
-    .limpiador-img {
-        margin-right: 8rem;
-        width: 25rem;
-        height: 13rem;
-    }
-}
-
-
 @media screen and (max-width : 431px) {
 
     .section-lijas-phone {
@@ -305,3 +254,55 @@ body {
         margin: 0;
     }
 }
+
+@media screen and (max-width : 1025px) {
+
+    .satinadora-div-img {
+        width: 50%;
+    }
+
+    .titulo-bandas {
+        width: 70%;
+    }
+
+    .titulo-bandas>p {
+        width: 90%;
+    }
+
+
+    .limpiador-img {
+        margin-right: 8rem;
+        width: 90%;
+        height: 13rem;
+    }
+}
+
+@media only screen and (max-width : 1440px) {
+
+    .titulo-bandas p {
+        font-size: 17px;
+    }
+
+    .cuadroNW {
+        width: 22rem;
+    }
+
+    .img-cuadro-multichem {
+        width: 22rem;
+    }
+
+    .limpiador-img {
+        width: 90%;
+        height: 15rem;
+    }
+
+    footer {
+        font-size: 14px;
+        height: 10rem;
+        padding: 0;
+    }
+
+
+}
+
+
