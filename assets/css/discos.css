@@ -135,7 +135,9 @@ section {
     width: 16rem;
 }
 
-
+.wpp-button-a {
+    right: 0;
+}
 
 
 @media screen and (min-width : 1024px){
