@@ -132,10 +132,12 @@ body {
     height: 13rem;
     margin-right: 4%;
     margin-left: 5%;
+    width: 35%;
 }
 
 .cuadroNW2 {
     height: 13rem;
+    width: 35%;
 }
 
 .container-cuadros-lijas {
@@ -413,8 +415,9 @@ body {
 
     .cuadroNW, .cuadroNW2 {
         width: 100%;
+        max-width: 100%;
         margin: 0 auto;
-        height: 9rem;
+        height: 8rem;
         margin-top: .8rem;
     }
     
@@ -431,14 +434,22 @@ body {
         margin-top:.8rem;
     }
 
-    .cuadro-combinados, 
-    .cuadro-combinados2,
+    
     .cuadro-fieltro, 
     .cuadro-fieltro2 {
         margin: 0 auto;
         width: 15rem;
         margin-top:.8rem;
         height: 11rem;
+        margin-left: 1.2rem;
+    }
+
+    .cuadro-combinados, 
+    .cuadro-combinados2 {
+        margin: 0 auto;
+        width: 15rem;
+        margin-top:.8rem;
+        height: 9rem;
         margin-left: 1.2rem;
     }
 
