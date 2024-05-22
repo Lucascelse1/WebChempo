@@ -224,6 +224,15 @@ footer {
     .titulo-form h1 {
         margin-left: 5.5rem;
     }
+
+    .cuadro-izq {
+        width: 30%;
+    }
+
+    .contact-info {
+        width: 100%;
+        height: max-content;
+    }
 }
 
 @media screen and (max-width : 1025px) {

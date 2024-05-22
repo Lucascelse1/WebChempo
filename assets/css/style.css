@@ -605,23 +605,22 @@ ul>li {
     background-color: #222222;
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-.footer-info-div>span {
+.footer-contacts {
     display: flex;
     justify-content: space-around;
-    width: 35%;
+    width: 38%;
     margin: 0 auto;
 }
 
-.footer-info-div>span>a{
+.footer-contacts>a{
     text-decoration: none;
     font-size: 16px;
 }
 
-.footer-contacts>a {
-    font-size: 20px;
-}
 
 footer {
     margin-top: 8%;
@@ -630,7 +629,7 @@ footer {
 .wpp-button-a {
     position: fixed;
     bottom: 20px;
-    right: 26px;
+    right: 40px;
     z-index: 9999;
 }
 
@@ -642,76 +641,6 @@ footer {
 /*-------------------------RESPONSIVE DESING------------------------*/
 
 
-
-@media screen and (max-width : 1025px) {
-
-    header {
-        height: 6rem;
-        margin-bottom: 1.5rem;
-    }
-
-
-    .top-info {
-        height: 2rem;
-    }
-
-    .phone-icon,
-    .contac-info {
-        display: flex;
-        align-items: center;
-    }
-
-    .top-info>div {
-        margin-right: 1rem;
-        padding: 0;
-        font-size: 16px;
-    }
-
-    .nav-conteiner {
-        width: 100%;
-    }
-
-    .navbar {
-        align-items: flex-start;
-        width: 100%;
-    }
-
-    .nav-text {
-        font-size: 16px;
-    }
-
-    .logo-chempo {
-        width: 11rem;
-        margin: 0;
-    }
-
-    .titulo-chempo-info {
-        margin-left: 4.2rem;
-    }
-
-    .subtitulo-info {
-        margin-left: 4.2rem;
-    }
-
-    .imagen-info {
-        width: 40%;
-    }
-
-    .img-vellon-card2 {
-        height: 30%;
-    }
-
-    .footer-logo {
-        width: 70%;
-    }
-
-    .footer {
-        padding: 0;
-        margin: 0;
-        font-size: 16px;
-    }
-
-}
 
 @media only screen and (max-width: 1441px) {
 
@@ -725,8 +654,17 @@ footer {
         width: 85%;
     }
 
-}
+    .footer-contacts {
+        margin: 0;
+        width: 55%;
+    }
 
+    .link_footer {
+        width: 110%;
+    }
+
+   
+}
 
 
 
@@ -1110,6 +1048,70 @@ footer {
     }
 
     .footer-contacts>a {
-        font-size: 12px;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width : 1025px) {
+
+    header {
+        height: 6rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .top-info {
+        height: 2rem;
+    }
+
+    .phone-icon,
+    .contac-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .top-info>div {
+        margin-right: 1rem;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .nav-conteiner {
+        width: 100%;
+    }
+
+    .navbar {
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .nav-text {
+        font-size: 16px;
+    }
+
+    .logo-chempo {
+        width: 9rem;
+        margin: 0;
+    }
+
+    
+
+    .imagen-info {
+        width: 80%;
+    }
+
+    .img-vellon-card2 {
+        height: 30%;
+    }
+
+    .footer-logo {
+        width: 70%;
+    }
+
+    .footer {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
     }
 }
