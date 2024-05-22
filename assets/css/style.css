@@ -630,7 +630,7 @@ footer {
 .wpp-button-a {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 26px;
     z-index: 9999;
 }
 
@@ -1077,6 +1077,8 @@ footer {
 
     .link_footer {
         margin-left: 1rem;
+        width: 100%;
+        font-size: 14px;
     }
 
     .footer-phone>div {
