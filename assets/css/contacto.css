@@ -156,6 +156,12 @@ input {
     margin-right: 2rem;
 }
 
+.prueba {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+}
 
 .email {
     display: flex;
@@ -166,13 +172,16 @@ input {
     margin-right: 2.5rem;
 }
 
+.cuadro-izq {
+    width: 25%;
+}
 
 .contact-info {
     box-shadow: 0 0 20px 0 rgb(0, 0, 0);
-    width: 110%;
+    width: 100%;
     background-color: #efefef;
     font-size: 20px;
-    height: 50%;
+    height: 55%;
     padding: .5rem;
     margin-top: 1.2rem;
 }
