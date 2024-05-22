@@ -641,19 +641,6 @@ footer {
 
 /*-------------------------RESPONSIVE DESING------------------------*/
 
-@media only screen and (max-width: 1441px) {
-
-
-    .nav-conteiner {
-        width: 100%;
-    }
-
-    .navbar {
-        align-items: flex-start;
-        width: 85%;
-    }
-
-}
 
 
 @media screen and (max-width : 1025px) {
@@ -725,6 +712,23 @@ footer {
     }
 
 }
+
+@media only screen and (max-width: 1441px) {
+
+
+    .nav-conteiner {
+        width: 100%;
+    }
+
+    .navbar {
+        align-items: flex-start;
+        width: 85%;
+    }
+
+}
+
+
+
 
 @media screen and (max-width : 430px) {
 
@@ -1086,6 +1090,17 @@ footer {
     .wpp-button-a {
         bottom: 50px;
         right: -40px;
+    }
+
+    .footer-info-div {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer-info-div>span {
+        width: 100%;
+        margin: 0;
+        display: block;
     }
 
     .footer-contacts {
