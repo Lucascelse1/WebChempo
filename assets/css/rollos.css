@@ -227,46 +227,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width : 431px) {
 
-    .titulo-nw-phone>h2{
-        margin-top: 1rem;
-        color: #435698;
-    }
-    
-    .texto-img {
-        background-color: white;
-    }
-
-    .texto-img>p {
-        margin: 0;
-        width: 100%;
-    }
-
-    .section-nonw {
-        display: none;
-    }
-
-    .section-nonw-phone {
-        display: flex;
-        flex-direction: column;
-        padding: .5rem;
-    }
-
-    .satinadora-img2 {
-        margin: 0;
-        margin-top: 1rem;
-        width: 10rem;
-    }
-
-    .cuadro-paño2{
-        width: 100%;
-        margin: 0;
-        margin-top: 1rem;    
-        
-    }
-
-}
 
 
 @media screen and (max-width : 1025px){
@@ -323,4 +284,53 @@ body {
         font-size: 17px;
     }
     
+}
+
+@media screen and (max-width : 431px) {
+
+    .titulo-nw-phone>h2{
+        margin-top: 1rem;
+        color: #435698;
+    }
+    
+    .texto-img {
+        background-color: white;
+    }
+
+    .texto-img>p {
+        margin: 0;
+        width: 100%;
+    }
+
+    .section-nonw {
+        display: none;
+    }
+
+    .section-nonw-phone {
+        display: flex;
+        flex-direction: column;
+        padding: .5rem;
+    }
+
+    .satinadora-img2 {
+        margin: 0;
+        margin-top: 1rem;
+        width: 14rem;
+        height: 9rem;
+    }
+
+    .satinadora-img3 {
+        margin: 0;
+        margin-top: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .cuadro-paño2{
+        width: 100%;
+        margin: 0;
+        margin-top: 1rem;    
+        
+    }
+
 }
