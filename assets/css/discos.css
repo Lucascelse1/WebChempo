@@ -440,6 +440,14 @@ section {
         margin: 0;
     }
 
+    .logos-footer {
+        width: 50%;
+    }
+
+    .logos-footer>a>span {
+        font-size: 1.5rem;
+    }
+
     .footer-logo {
         width: 60%;
         padding: 0;

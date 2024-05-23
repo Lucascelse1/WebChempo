@@ -663,7 +663,9 @@ footer {
         width: 110%;
     }
 
-   
+   .footer-logo {
+    width: 70%;
+   }
 }
 
 
