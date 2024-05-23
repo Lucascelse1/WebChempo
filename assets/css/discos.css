@@ -302,7 +302,9 @@ section {
         margin-left: 8rem;
     }
 
-    
+    .link_footer {
+        margin: 0;
+    }
 }
 
 
