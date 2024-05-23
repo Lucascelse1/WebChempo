@@ -140,6 +140,16 @@ section {
     width: 8rem;
 }
 
+.discosnwvelcro-phone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.discosnwvelcro {
+    width: 22rem;
+}
+
 
 
 @media screen and (min-width : 1024px){
@@ -282,6 +292,17 @@ section {
     .footer-info-div>span>a {
         font-size: 16px;
     }
+    
+    .velcro-cont {
+        width: 100%;
+    }
+
+    .cuadro-nonwovelcro {
+        width: 65%;
+        margin-left: 8rem;
+    }
+
+    
 }
 
 
@@ -406,6 +427,24 @@ section {
     .discosnw{
        width: 30%;
        
+    }
+
+    .cuadro-nonwovelcro {
+        width: 65%;
+        margin: 0;
+    }
+
+    .link_footer {
+        margin: 0;
+    }
+
+    .footer-logo {
+        width: 60%;
+        padding: 0;
+    }
+
+    .discosnwvelcro {
+        width: 40%;
     }
 
     .zirconio-img-discos{
